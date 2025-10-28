@@ -1,0 +1,15 @@
+Flask
+groq
+python-dotenv
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-groq
+langchain-huggingface
+pypdf
+python-docx
+faiss-cpu
+sentence-transformers
+
+# pip install -r requirements.txt to install the dependencies
