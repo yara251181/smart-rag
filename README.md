@@ -203,15 +203,6 @@ Run again to merge all document types
 
 
 
-🛠️ Future Enhancements
-
-Add Streamlit or React frontend
-
-Support CSV and Excel formats
-
-Include source highlighting in answers
-
-Allow vector DB export/import for cloud deployment
 
 👨‍💻 Author
 
