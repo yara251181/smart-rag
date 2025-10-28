@@ -1,11 +1,11 @@
-# 🧠 Smart RAG System (PDF, DOCX, TXT Integration)
+# Smart RAG System (PDF, DOCX, TXT Integration)
 
 ### 🔍 Retrieval-Augmented Generation using LangChain, Groq LLM, and FAISS
 
 This project implements a **Retrieval-Augmented Generation (RAG)** system capable of extracting, embedding, and querying knowledge from **PDF, DOCX, and TXT** files.  
 It is built using **LangChain**, **Groq LLM API**, **FAISS Vector Database**, and **Flask** for serving REST APIs.
 
-The system enables **semantic search** and **context-aware Q&A** across multiple document types — ideal for resume/document analysis.
+The system enables **semantic search** and **context-aware Q&A** across multiple document types - ideal for resume/document analysis.
 
 ---
 
@@ -28,21 +28,20 @@ The system enables **semantic search** and **context-aware Q&A** across multiple
 
 smart-rag/
 │
-├── flaskapp.py # Flask API for RAG query endpoint
-├── main.py # Core RAG logic (loading, embeddings, retrieval)
+├── flaskapp.py              # Flask API: /rag_query endpoint
+├── main.py                  # Core RAG: loading, embedding, retrieval
 │
-├── yash_resume.pdf # Sample PDF resume
-├── ramesh_resume.docx # Sample DOCX resume
-├── suresh_resume.txt # Sample TXT resume
+├── yash_resume.pdf          # Sample PDF
+├── ramesh_resume.docx       # Sample DOCX
+├── suresh_resume.txt        # Sample TXT
 │
-├── vector_db/ # Auto-created FAISS vector database
-│ └── file_metadata.json # Tracks file hashes for change detection
+├── vector_db/               # FAISS index (auto-created)
+│   └── file_metadata.json   # File hash tracking
 │
-├── .env # Stores your GROQ_API_KEY (Free)
-├── .gitignore # Ignores env, cache, and secrets
-├── requirements.txt # Dependencies
-└── README.md # This documentation
-
+├── .env                     # GROQ_API_KEY
+├── .gitignore
+├── requirements.txt
+└── README.md                # This file
 
 
 
@@ -203,22 +202,9 @@ Run again to merge all document types
 
 
 
-🛠️ Future Enhancements
 
-Add Streamlit or React frontend
-
-Support CSV and Excel formats
-
-Include source highlighting in answers
-
-Allow vector DB export/import for cloud deployment
-
-👨‍💻 Author
-
+Author
 Yash Raj
-AI Engineer | RAG | LLMs | Python | LangChain
+AI Engineer | RAG | LLMs | LangChain
 📧 yashraj25118110@gmail.com
-
-🔗 GitHub Profile
-
-
+🔗 github.com/yara251181
